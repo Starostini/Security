@@ -1,0 +1,1 @@
+{"version":3,"file":"variables.css","sources":["variables.scss"],"sourcesContent":["$topcolor: rgb(46, 197, 8);\r\n$topfont: 'lato', 'STSerif';\r\n$topbgc: rgb(12, 115, 156);\r\n%name-item {\r\n    font-size: 22px;\r\n}"],"names":[],"mappings":""}

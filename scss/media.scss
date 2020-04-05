@@ -1,0 +1,250 @@
+@import "variables";
+@media (max-width: 1140px) {
+  .news {
+    padding-bottom: 20px;
+  }
+  .news__inner {
+    display: block;
+  }
+  .news__slider {
+    margin-bottom: 90px;
+    max-width: 100%;
+  }
+  .news__blog {
+    max-width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    &:after {
+      content: "";
+      clear: both;
+      display: block;
+    }
+  }
+  .news__images {
+    float: left;
+    margin-right: 20px;
+  }
+}
+//1056
+@media (max-width: 1056px) {
+  .services__items {
+    display: block;
+  }
+  .services__item {
+    max-width: 80%;
+    margin: 30px auto;
+    min-height: 330px;
+  }
+  .form__inner {
+    background-image: none;
+  }
+  .about__inner {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .footer__inner {
+    display: block;
+  }
+  .footer__map {
+    max-width: 100%;
+  }
+  .footer__info {
+    margin-bottom: 25px;
+    max-width: 465px;
+  }
+}
+// 900px
+@media (max-width: 900px) {
+  .form {
+    padding-bottom: 20px;
+  }
+  .slider__inner .slick-btn {
+    display: none;
+  }
+  .services__top,
+  .news__top {
+    display: block;
+  }
+  .services__title-box,
+  .form__title-box,
+  .news__title-box {
+    padding-left: 0;
+    text-align: center;
+    margin: 0 auto 30px;
+    &:before {
+      display: none;
+    }
+  }
+  .services__btn,
+  .news__btn {
+    text-align: center;
+  }
+  .form__inner {
+    padding-bottom: 0;
+  }
+  .form__box-inner {
+    display: block;
+  }
+  .form__box-left {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  .form__box-right {
+    max-width: 80%;
+    margin: 0 auto;
+    & .default-btn {
+      float: none;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+  .form__box-inner .jq-selectbox__select {
+    margin-bottom: 10px;
+  }
+  .about__inner {
+    max-width: 80%;
+  }
+  .advantages_inner {
+    display: block;
+  }
+  .advantages-item {
+    margin: 0 auto;
+    max-width: 80%;
+    padding-bottom: 20px;
+  }
+}
+// 650px
+@media (max-width: 650px) {
+  .btn {
+    float: none;
+  }
+  .header__contacts {
+    text-align: center;
+  }
+  .header__content-inner {
+    display: block;
+    text-align: center;
+  }
+  .menu ul {
+    padding-top: 20px;
+  }
+  .slider__title {
+    font-size: 24px;
+  }
+  .slider__text {
+    font-size: 16px;
+  }
+  .services__item {
+    max-width: 360px;
+    min-height: 375px;
+  }
+}
+// 627 px
+@media (max-width: 627px) {
+  .header__content-inner {
+    display: block;
+    text-align: center;
+  }
+  .header__contacts {
+    padding-bottom: 20px;
+  }
+}
+// 540 px
+@media (max-width: 540px) {
+  .news__slider {
+    padding: 50px 15px 25px 25px;
+    &:before {
+      left: 25px;
+    }
+  }
+  .news__slider-inner {
+    & .slick-next {
+      right: -15px;
+    }
+    & .slick-prev {
+      right: 40px;
+    }
+    & .slick-btn {
+      bottom: -90px;
+    }
+  }
+}
+// 511 px
+@media (max-width: 511px) {
+  .news__blog {
+    max-width: 260px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+  }
+  .news__images {
+    float: none;
+  }
+  .footer__info {
+    text-align: center;
+  }
+}
+
+// 483 px
+@media (max-width: 483px) {
+  .menu {
+    & ul {
+      display: none;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin-top: 20px;
+      z-index: 1;
+    }
+    & li {
+      display: block;
+    }
+    & a {
+      display: block;
+      background-color: $btn-color;
+      border-top: 1px solid #fff;
+      border-bottom: 1px solid #fff;
+    }
+    & li + li {
+      padding: 0;
+    }
+  }
+
+  .header__content-inner {
+    display: flex;
+  }
+  .header__btn-menu {
+    display: block;
+    font-size: 28px;
+  }
+  .about__inner {
+    max-width: 90%;
+  }
+  .advantages-item {
+    max-width: 100%;
+  }
+}
+// 390 px
+@media (max-width: 390px) {
+  .header_email {
+    padding-right: 30px;
+  }
+  .about__inner {
+    max-width: 100%;
+  }
+}
+
+// 280 px
+@media (max-width: 273px) {
+  .btn {
+    line-height: 30px;
+    padding: 5px 20px 4px 20px;
+    &:before {
+      display: none;
+    }
+  }
+}
+@media (min-width: 483px) {
+  .menu ul {
+    display: block !important;
+  }
+}
